@@ -1,2 +1,13 @@
-# Breve descripción de cada uno de los componentes utilizados:
-  ESP
+# Todos los componentes que se utilizarán:
+
+ESP32S
+
+LED
+
+BUZZER PIEZOELÉCTRICO
+
+MÓDULO RELÉ KY - 019
+
+SENSOR DE MOVIMIENTO HC - SR501
+
+SENSOR DE VIBRACIÓN KY - 002
