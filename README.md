@@ -1,2 +1,1 @@
-# Sistema-de-seguridad
-El repositorio contiene información sobre la documentación, programación, entre otros contenidos.
+# Breve descripción de cada uno de los componentes utilizados:
