@@ -34,6 +34,6 @@ Nosotros lo elegimos por los siguientes motivos:
 
 ### Complicaciones e ideas a futuro:
 
--Durante la realización del proyecto nuestro mayor problema fue la obtención de los materiales necesarios para llevar el trabajo adelante, esto nos costó mucho tiempo perdido. Sin embargo, tratamos de avanzar con otras tareas para lograr un pequeño avanze.
+-Durante la realización del proyecto nuestro mayor problema fue la obtención de los materiales necesarios para llevar el trabajo adelante, esto nos costó mucho tiempo perdido. Sin embargo, tratamos de avanzar con otras tareas para lograr un pequeño avance.
 
 -En un futuro es posible ampliar nuestro proyecto para un desarrollo de un sistema de seguridad más avanzado y de mayor capacidad. Aprovechando las capacidades de la comunicación MQTT.
