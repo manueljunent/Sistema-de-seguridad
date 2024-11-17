@@ -12,7 +12,7 @@ La aplicación móvil o web suscrita a este tópico recibe la notificación.
 ### Actuadores
 
 - Buzzer: uno piezoeléctrico que emite sonido al activar la alarma.
-- LED intermitente: para indicar visualmente la alerta
+- Módulo Relé: funciona como interruptor electrónico, activando o desactivando al buzzer y al LED cuando este recibe un impulso eléctrico.
 
 ### Sensores
 
