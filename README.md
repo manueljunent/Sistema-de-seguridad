@@ -14,8 +14,8 @@ La aplicación móvil o web suscrita a este tópico recibe la notificación.
 
 ### Sensores:
 
-- Sensor de movimiento PIR:  HC-SR501
-- Sensor de puerta/ventana: KY-002
+- Sensor de movimiento PIR:  HC-SR501. Lo elegimos debido a su bajo costo y consumo, y su capacidad de detectar presencia humana basada en la radiación infraroja.
+- Sensor de vibración: KY-002. Lo elegimos debido a su alta sensibilidad, su respuesta a cambios de vibración y su facilidad para usarse con microcontroladores.
 
 ### Otros:
 
@@ -24,3 +24,7 @@ La aplicación móvil o web suscrita a este tópico recibe la notificación.
 ### Tipo de Comunicación
 
 - MQTT:  es un protocolo de comunicación basado en la publicación y suscripción de tópicos entre un usuario y un broker (servidor). En nuestro caso, el Esp32, crearía un tópico cuyo contenido tendrá información acerca de las detecciones de los sensores. Este tópico será recibido por un broker, y luego enviado a un cliente para que se suscriba y publique dicho tópico.
+Nosotros lo elegimos por los siguientes motivos:
+  -Sirve para el uso de dispositvos con poco poder computacional y de memoria.
+  -Funciona bien para redes con poco ancho de banda y baja latencia.
+  -"Comunicación desacoplada": debido a su funcionamiento de publicación y suscripción, en vez del tradicional solicitud-respuesta (ej: HTTP). Los dispositivos no "necesitan saber de la existencia del otro", reduciendo la complejidad.
